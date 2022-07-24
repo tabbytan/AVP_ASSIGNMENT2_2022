@@ -1,0 +1,15 @@
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net6.0\SectionA.csproj.AssemblyReference.cache
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net6.0\SectionA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net6.0\SectionA.AssemblyInfoInputs.cache
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net6.0\SectionA.AssemblyInfo.cs
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net6.0\SectionA.csproj.CoreCompileInputs.cache
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\bin\Debug\net6.0\SectionA.exe
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\bin\Debug\net6.0\SectionA.deps.json
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\bin\Debug\net6.0\SectionA.runtimeconfig.json
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\bin\Debug\net6.0\SectionA.dll
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\bin\Debug\net6.0\SectionA.pdb
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net6.0\SectionA.dll
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net6.0\refint\SectionA.dll
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net6.0\SectionA.pdb
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net6.0\SectionA.genruntimeconfig.cache
+C:\Users\weihe\Desktop\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net6.0\ref\SectionA.dll
