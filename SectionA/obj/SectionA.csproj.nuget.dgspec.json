@@ -1,30 +1,30 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\weihe\\Desktop\\AVP_ASSIGNMENT2_2022\\SectionA\\SectionA.csproj": {}
+    "C:\\Users\\weihe\\Documents\\GitHub\\AVP_ASSIGNMENT2_2022\\SectionA\\SectionA.csproj": {}
   },
   "projects": {
-    "C:\\Users\\weihe\\Desktop\\AVP_ASSIGNMENT2_2022\\SectionA\\SectionA.csproj": {
+    "C:\\Users\\weihe\\Documents\\GitHub\\AVP_ASSIGNMENT2_2022\\SectionA\\SectionA.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\weihe\\Desktop\\AVP_ASSIGNMENT2_2022\\SectionA\\SectionA.csproj",
+        "projectUniqueName": "C:\\Users\\weihe\\Documents\\GitHub\\AVP_ASSIGNMENT2_2022\\SectionA\\SectionA.csproj",
         "projectName": "SectionA",
-        "projectPath": "C:\\Users\\weihe\\Desktop\\AVP_ASSIGNMENT2_2022\\SectionA\\SectionA.csproj",
+        "projectPath": "C:\\Users\\weihe\\Documents\\GitHub\\AVP_ASSIGNMENT2_2022\\SectionA\\SectionA.csproj",
         "packagesPath": "C:\\Users\\weihe\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\weihe\\Desktop\\AVP_ASSIGNMENT2_2022\\SectionA\\obj\\",
+        "outputPath": "C:\\Users\\weihe\\Documents\\GitHub\\AVP_ASSIGNMENT2_2022\\SectionA\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\weihe\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
-          "net6.0"
+          "net5.0"
         ],
         "sources": {
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net6.0": {
-            "targetAlias": "net6.0",
+          "net5.0": {
+            "targetAlias": "net5.0",
             "projectReferences": {}
           }
         },
@@ -35,8 +35,8 @@
         }
       },
       "frameworks": {
-        "net6.0": {
-          "targetAlias": "net6.0",
+        "net5.0": {
+          "targetAlias": "net5.0",
           "imports": [
             "net461",
             "net462",
@@ -47,18 +47,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[6.0.5, 6.0.5]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
         }
       }
     }

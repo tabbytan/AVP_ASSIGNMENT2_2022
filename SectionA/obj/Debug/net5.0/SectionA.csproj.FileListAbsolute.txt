@@ -1,0 +1,16 @@
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net5.0\SectionA.csproj.AssemblyReference.cache
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net5.0\SectionA.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net5.0\SectionA.AssemblyInfoInputs.cache
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net5.0\SectionA.AssemblyInfo.cs
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net5.0\SectionA.csproj.CoreCompileInputs.cache
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\bin\Debug\net5.0\SectionA.exe
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\bin\Debug\net5.0\SectionA.deps.json
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\bin\Debug\net5.0\SectionA.runtimeconfig.json
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\bin\Debug\net5.0\SectionA.runtimeconfig.dev.json
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\bin\Debug\net5.0\SectionA.dll
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\bin\Debug\net5.0\ref\SectionA.dll
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\bin\Debug\net5.0\SectionA.pdb
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net5.0\SectionA.dll
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net5.0\ref\SectionA.dll
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net5.0\SectionA.pdb
+C:\Users\weihe\Documents\GitHub\AVP_ASSIGNMENT2_2022\SectionA\obj\Debug\net5.0\SectionA.genruntimeconfig.cache
