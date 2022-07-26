@@ -2,43 +2,13 @@
 using System.Linq;
 using System.Collections.Generic;
 using System.IO;
+using Employee;
 
 namespace SectionA
 {
-    public class Employees
+    public delegate void Del(List<Employees> list);
+    public class Program
     {
-        string Nric;
-        string FullName;
-        string Salutation;
-        DateTime Start_Date;
-        string Designation;
-        string Department;
-        string MobileNo;
-        string HireType;
-        double Salary;
-        double MonthlyPayout = 0.0;
-
-        public override string ToString()
-        {
-            return Nric + FullName + Salutation + Start_Date + Designation + Department + MobileNo + HireType + Salary + MonthlyPayout;
-        }
-
-        public Employees(string Nric, string FullName, string Salutation, DateTime Start_Date, string Designation, string Department, string MobileNo, string HireType, double Salary)
-        {
-            this.Nric = Nric;
-            this.FullName = FullName;
-            this.Salutation = Salutation;
-            this.Start_Date = Start_Date;
-            this.Designation = Designation;
-            this.Department = Department;
-            this.MobileNo = MobileNo;
-            this.HireType = HireType;
-            this.Salary = Salary;
-            this.MonthlyPayout = Salary / 12;
-
-
-        }
-
         public static List<Employees> readHRMasterList()
         {
             string text = @"..\HRMasterlist.txt";
@@ -58,17 +28,14 @@ namespace SectionA
             // {
             //     Console.WriteLine(e);
             // }
-
-
         }
-        public static void generateInfoForCorpAdmin()
+        public static void generateInfoForCorpAdmin(List<Employees> employeelist)
         {
             string filename = @"../CorporateAdmin.txt";
             if (File.Exists(filename))
             {
                 File.Delete(filename);
             }
-            List<Employees> employeelist = readHRMasterList();
             foreach (Employees Employees in employeelist)
             {
                 Console.WriteLine(Employees.FullName + ',' + Employees.Designation + ',' + Employees.Department);
@@ -80,9 +47,8 @@ namespace SectionA
             }
 
         }
-        public static void generateInfoForProcurement()
+        public static void generateInfoForProcurement(List<Employees> employeelist)
         {
-            List<Employees> employeelist = readHRMasterList();
             string filename = @"../Procurement.txt";
             if (File.Exists(filename))
             {
@@ -98,9 +64,8 @@ namespace SectionA
                 }
             }
         }
-        public static void generateInfoForITDepartment()
+        public static void generateInfoForITDepartment(List<Employees> employeelist)
         {
-            List<Employees> employeelist = readHRMasterList();
             string filename = @"../ITDepartment.txt";
             if (File.Exists(filename))
             {
@@ -116,13 +81,16 @@ namespace SectionA
                 }
             }
         }
-
-
         static void Main(string[] args)
         {
-            generateInfoForProcurement();
-            generateInfoForCorpAdmin();
-            generateInfoForITDepartment();
+            Del del1 = new Del(generateInfoForITDepartment);
+            Del del2 = new Del(generateInfoForCorpAdmin);
+            Del del3 = new Del(generateInfoForProcurement);
+            Del multidelegate = del1 + del2 + del3;
+            multidelegate(readHRMasterList());
         }
     }
+
+
+
 }
