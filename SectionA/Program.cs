@@ -38,7 +38,7 @@ namespace SectionA
             }
             foreach (Employees Employees in employeelist)
             {
-                Console.WriteLine(Employees.FullName + ',' + Employees.Designation + ',' + Employees.Department);
+                // Console.WriteLine(Employees.FullName + ',' + Employees.Designation + ',' + Employees.Department);
                 string totxt = (Employees.FullName + ',' + Employees.Designation + ',' + Employees.Department);
                 using (StreamWriter sw = File.AppendText(filename))
                 {
@@ -56,7 +56,7 @@ namespace SectionA
             }
             foreach (Employees Employees in employeelist)
             {
-                Console.WriteLine(Employees.Salutation + ',' + Employees.FullName + ',' + Employees.MobileNo + Employees.Designation + ',' + Employees.Department);
+                // Console.WriteLine(Employees.Salutation + ',' + Employees.FullName + ',' + Employees.MobileNo + Employees.Designation + ',' + Employees.Department);
                 string totxt = (Employees.Salutation + ',' + Employees.FullName + ',' + Employees.MobileNo + Employees.Designation + ',' + Employees.Department);
                 using (StreamWriter sw = File.AppendText(filename))
                 {
@@ -73,8 +73,8 @@ namespace SectionA
             }
             foreach (Employees Employees in employeelist)
             {
-                Console.WriteLine(Employees.Nric + ',' + Employees.FullName + ',' + Employees.Start_Date + ',' + Employees.Department + ',' + Employees.MobileNo);
-                string totxt = (Employees.Nric + ',' + Employees.FullName + ',' + Employees.Start_Date + ',' + Employees.Department + ',' + Employees.MobileNo);
+                // Console.WriteLine(Employees.Nric + ',' + Employees.FullName + ',' + Employees.Start_Date + ',' + Employees.Department + ',' + Employees.MobileNo);
+                string totxt = (Employees.Nric + ',' + Employees.FullName + ',' + Employees.Start_Date.ToShortDateString() + ',' + Employees.Department + ',' + Employees.MobileNo);
                 using (StreamWriter sw = File.AppendText(filename))
                 {
                     sw.WriteLine(totxt);

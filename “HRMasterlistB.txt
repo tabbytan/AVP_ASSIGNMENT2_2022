@@ -1,0 +1,26 @@
+S1234567A|Jan Lee|Ms|1/5/1990|Software Architect|IT Department|98785432|3500|1750
+S1234567B|Feb Tan|Mr|1/10/1991|Corporate Recruiter|HR Corporate Admin|98766432|1500|750
+S1234567C|Mark Lim|Mr|1/15/1992|Benefit Specialist|HR Corporate Admin|98265432|2900|1450
+S1234567D|Apr Tan|Ms|1/20/1996|Payroll Administrator|HR Corporate Admin|91765432|1600|1600
+S1234567E|May Ng|Ms|1/25/1994|Training Coordinator|HR Corporate Admin|98767432|1200|300
+S1234567F|Juno Chua|Mr|1/30/1997|Compensation Manager|HR Corporate Admin|98760432|4000|4000
+S1234567G|Jul Wang|Mr|1/2/1996|Technical Recruiter|HR Corporate Admin|98765932|1200|600
+S1234567H|Aug Lau|Mr|1/4/1997|HR Consultant|HR Corporate Admin|98765032|2000|1000
+S1234567I|Sep Yeo|Mr|1/6/1998|Software Engineer|IT Department|98765434|3000|3000
+S1234567J|Octo Chua|Mr|1/8/1999|Technical Lead|IT Department|92765432|4000|4000
+S1234567K|Nova Ng|Ms|1/10/1980|Team Lead|IT Department|90760432|3000|3000
+S1234567L|Dessy Chow|Ms|1/5/1998|Project Lead|IT Department|95760432|3500|3500
+S1234567M|Jack Mar|Mr|1/14/1999|Project Manager|IT Department|98766632|4500|4500
+S1234567N|Anne Chan|Ms|1/16/1983|Procurement Assistant|Procurement Department|90065432|1000|250
+S1234567O|Claire Tan|Ms|1/17/1984|Procurement Officer|Procurement Department|98760032|1000|1000
+S1234567P|Jade Lau|Ms|1/18/1996|Purchasing Associate|Procurement Department|91711432|1100|1100
+S1234567Q|Wyne Yeo|Ms|1/19/1986|Purchasing Clerk|Procurement Department|98733433|1200|300
+S1234567R|Craig Ng|Mr|1/23/1987|Facilities Manager|Procurement Department|90088432|2000|1000
+S1234567S|Hugh Chan|Mr|1/25/1988|Operations Manager|Procurement Department|88765432|2500|2500
+S1234567T|Kent Teo|Mr|1/27/1989|Store Manager|Procurement Department|80765432|2000|2000
+S1234567U|Sam Goh|Mr|1/29/1990|Production Planner|Procurement Department|98765321|1500|375
+S1234567V|Zack Aw|Mr|1/13/1991|Warehouse Clerk|Procurement Department|98321432|1000|250
+S1234567W|Ava Lim|Ms|1/7/1992|Procurement Specialist|Procurement Department|91235432|2800|1400
+S1234567X|Eva Chow|Ms|1/9/1997|Materials Director|Procurement Department|92225432|6500|6500
+S1234567Y|Lea Law|Ms|1/11/1994|Corporate Recruiter|HR Corporate Admin|94445432|1600|800
+S1234567Z|Ian Neo|Ms|1/21/1995|HR Coordinator|HR Corporate Admin|90005432|1200|300

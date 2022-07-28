@@ -33,7 +33,6 @@ namespace Employee
             this.MobileNo = MobileNo;
             this.HireType = HireType;
             this.Salary = Salary;
-            this.MonthlyPayout = Salary / 12;
 
 
         }

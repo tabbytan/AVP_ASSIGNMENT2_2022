@@ -1,11 +1,30 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "SectionA/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/SectionA.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SectionA.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "SectionA/1.0.0": {
+      "type": "project",
+      "path": "../SectionA/SectionA.csproj",
+      "msbuildProject": "../SectionA/SectionA.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "SectionA >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\weihe\\.nuget\\packages\\": {}
@@ -13,11 +32,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\weihe\\Documents\\GitHub\\AVP_ASSIGNMENT2_2022\\SectionB\\SectionB.csproj",
+      "projectUniqueName": "C:\\Users\\weihe\\Desktop\\AVP_ASSIGNMENT2_2022\\SectionB\\SectionB.csproj",
       "projectName": "SectionB",
-      "projectPath": "C:\\Users\\weihe\\Documents\\GitHub\\AVP_ASSIGNMENT2_2022\\SectionB\\SectionB.csproj",
+      "projectPath": "C:\\Users\\weihe\\Desktop\\AVP_ASSIGNMENT2_2022\\SectionB\\SectionB.csproj",
       "packagesPath": "C:\\Users\\weihe\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\weihe\\Documents\\GitHub\\AVP_ASSIGNMENT2_2022\\SectionB\\obj\\",
+      "outputPath": "C:\\Users\\weihe\\Desktop\\AVP_ASSIGNMENT2_2022\\SectionB\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\weihe\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -31,7 +50,11 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\weihe\\Desktop\\AVP_ASSIGNMENT2_2022\\SectionA\\SectionA.csproj": {
+              "projectPath": "C:\\Users\\weihe\\Desktop\\AVP_ASSIGNMENT2_2022\\SectionA\\SectionA.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -58,7 +81,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
       }
     }
   }
