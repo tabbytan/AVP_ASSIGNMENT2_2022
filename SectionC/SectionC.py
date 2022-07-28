@@ -28,4 +28,4 @@ file.close
 result = (reduce(lambda x, y: x+y, map(lambda x: int(x[8])*0.85, filter(lambda x: int(x[3][6:10]) > 1995, filter(
     lambda x: str(x[7]) == "FullTime", HRList)))))
 
-print(f'Total New Salary {result}')
+print(f'New Salary Total {result}')
