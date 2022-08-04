@@ -14,15 +14,32 @@ namespace SectionA
             string text = @"..\HRMasterlist.txt";
             List<string> allines = new List<string>();
             List<Employees> employeelist = new List<Employees>();
+        try {
             // clean up the text file turn into object
             allines = File.ReadAllLines(text).ToList();
+        }
+        catch(Exception e){
+            Console.WriteLine(e.Message+" file does not exist");
+            Environment.Exit(0);
+        }
+        try{
             foreach (string line in allines)
             {
                 string[] item = line.Split('|');
                 Employees e = new Employees(item[0], item[1], item[2], DateTime.ParseExact(item[3], "dd/mm/yyyy", null), item[4], item[5], item[6], item[7], double.Parse(item[8]));
                 employeelist.Add(e);
             }
-            return employeelist;
+        }
+        catch(Exception f){
+            Console.WriteLine(f.Message + "Parsing error please check the masterfile");
+        }
+        
+        
+        return employeelist;
+         
+            
+        
+        
             // debug purposes print employeelist
             // foreach (Employees e in employeelist)
             // {
